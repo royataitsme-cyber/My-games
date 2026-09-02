@@ -1,0 +1,1017 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #f0a500;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://wallpapers.com/images/hd/gamer-girl-aesthetic-desk-setup-m2iizd2j9701eybg.jpg);
+  background-size: cover;
+}
+
+.game-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.game-card h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.5rem;
+
+}
+
+.game-card p {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.play-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #f0a500;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container {
+  width: 940px;
+  /* outline: 2px solid red; */
+  margin: 20px auto;
+
+}
+
+.title-video {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white
+}
+
+.video-top {
+  margin: 0 auto;
+  width: 600px;
+  display: block;
+  border-radius: 30px;
+}
+
+.something {
+  background-image: url(https://wallpapershome.com/images/pages/pic_h/12590.jpg);
+  background-size: cover;
+}
+
+.minecraft_things {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://4kwallpapers.com/images/wallpapers/minecraft-game-3840x2160-16737.jpg);
+  background-size: cover;
+  border-radius: 8px
+}
+
+.stardew_things {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://images3.alphacoders.com/126/thumb-1920-1269904.png);
+  background-size: cover;
+  border-radius: 8px
+}
+
+.sky_things {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAXW_jx9TOhCeap35rrhKFN1gEvX4v6S1Dk2berv5bFDAHU3JF0t2Uas&s=10);
+  background-size: cover;
+  border-radius: 8px
+}
+
+.tabs {
+  background-image: url(https://wallpapercave.com/wp/wp9556135.jpg);
+  padding: 10px;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.card-set {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 3);
+
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.item h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item p {
+  margin: 0;
+}
+
+.advantages {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://media.istockphoto.com/id/1215875509/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BF%D0%B5%D0%B9%D0%B7%D0%B0%D0%B6-%D0%BF%D0%B8%D0%BA%D1%81%D0%B5%D0%BB%D1%8C-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0-%D1%81%D1%82%D0%B8%D0%BB%D1%8C-%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%BE%D0%B5-%D0%BD%D0%B5%D0%B1%D0%BE-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B5-%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B0.jpg?s=612x612&w=0&k=20&c=mQRX7gRRoY5BOaEBb9qMGUfGq5mkb9TACGNhYAhvWBw=);
+  background-size: cover;
+  border-radius: 9px;
+  margin: 0 auto;
+  width: 940px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: top;
+  color: black;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-item {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 800px;
+
+}
+
+.video-iframe {
+  width: 50px
+}
+
+.minecraft-guide-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 2rem;
+  background-image: url(https://wallpapercave.com/wp/wp14014986.webp);
+  background-size: cover;
+}
+
+.stardew-guide-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 2rem;
+  background-image: url(https://images.wallpapersden.com/image/download/stardew-valley_a2lna2qUmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background-size: cover;
+}
+
+.sky-guide-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 2rem;
+  background-image: url(https://mpratamasky.eu5.org/static/uploads/68138e6e6e9ed_ss_e5459e53de1e3230745804fcf359243ad522488d.1920x1080.jpg);
+  background-size: cover;
+}
+
+.video-card {
+  flex: 0 0 calc((100% - 60px) / 4);
+  max-width: 350px !important;
+}
+
+.pane {
+  display: none;
+  margin-top: 8px;
+  color: white;
+
+}
+
+.pane.is-active {
+  display: block;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-pane {
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.btn-pane:hover {
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+
+.guides {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://wallpapercave.com/wp/wp9745622.jpg);
+  background-size: cover;
+  border-radius: 8px
+}
+
+.element-link {
+  color: black;
+  text-decoration: none;
+}
+
+.element-link:hover {
+  background-color: #6698c2;
+}
+
+.tutorials {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://wallpaperaccess.com/full/837256.jpg);
+  background-size: cover;
+  border-radius: 8px
+}
+
+.chat-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1653/1653630.png");
+  background-size: contain;
+
+  cursor: pointer;
+}
+
+
+
+
+/* Gallery */
+
+
+.container-minecraft {
+  min-height: 80vh;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  background-image: url(https://m.media-amazon.com/images/I/61zWCnrjCWL._AC_UF894,1000_QL80_.jpg);
+  background-size: cover;
+}
+
+.box-minecraft {
+  position: absolute;
+  height: 200px;
+  width: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  /* font-size: 64px;
+  color: #fff; */
+
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.box-minecraft:nth-child(1) {
+  top: 60px;
+  left: 130px;
+  background-image: url(https://cdn.geekwire.com/wp-content/uploads/2015/07/Minecraft_Win10_Beta_-10.png);
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-minecraft:nth-child(2) {
+  top: 60px;
+  left: 530px;
+  background-color: #ef233c;
+  background-image: url(https://www.minecraft.net/content/dam/minecraftnet/archive/4da5ff0255092969c073274e0430e52d-6.png);
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-minecraft:nth-child(3) {
+  top: 300px;
+  left: 520px;
+  background-color: #ffd07b;
+  background-image: url(https://cdn.britannica.com/62/200262-050-AFE1BDFF/Players-Minecraft-worlds-way-blocks-roaming-characters.jpg);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-minecraft:nth-child(4) {
+  top: 300px;
+  left: 120px;
+  background-color: #4caf50;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBENNIFYQLXD5eBqGWbPODiqkjcj9e9sgyCqUGj3NH_JLDjdAw629TLsY&s=10);
+  background-size: cover;
+}
+
+
+
+
+
+
+.container-stardew {
+  min-height: 80vh;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  background-image: url(https://wallpaperaccess.com/full/1547801.jpg);
+  background-size: cover;
+}
+
+.box-stardew {
+  position: absolute;
+  height: 200px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  /* font-size: 64px;
+  color: #fff; */
+
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.box-stardew:nth-child(1) {
+  top: 60px;
+  left: 130px;
+  background-image: url(https://wamu.org/wp-content/uploads/2017/04/farm_day_1920x1080_wide-d49994dd6440a8dd9a0f2d5a9e826ffdfdb47959.png);
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-stardew:nth-child(2) {
+  top: 60px;
+  left: 530px;
+  background-color: #ef233c;
+  background-image: url(https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/9433529/stardew_valley_guide_01.png?w=1600&h=900&fit=crop);
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-stardew:nth-child(3) {
+  top: 300px;
+  left: 520px;
+  background-color: #ffd07b;
+  background-image: url(https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/9398563/StardewValley_5.png?quality=90&strip=all&crop=5.78125,0,88.4375,100);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-stardew:nth-child(4) {
+  top: 300px;
+  left: 120px;
+  background-color: #4caf50;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/ujJc3nyRwZ3cdELUNRq3tk.jpg);
+  background-size: cover;
+}
+
+
+
+
+
+
+.container-sky {
+  min-height: 70vh;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/055/328/297/large/manh-lu-runaway-1.jpg?1666694951);
+  background-size: cover;
+}
+
+.box-sky {
+  position: absolute;
+  height: 200px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  /* font-size: 64px;
+  color: #fff; */
+
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.box-sky:nth-child(1) {
+  top: 60px;
+  left: 130px;
+  background-image: url(https://preview.redd.it/although-sky-children-of-the-light-runs-not-very-well-with-v0-37xyl3xm4lr41.jpg?auto=webp&s=c599412dc180c775ce467ad7b62cba1c9a8b724a);
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-sky:nth-child(2) {
+  top: 60px;
+  left: 530px;
+  background-color: #ef233c;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjY16OrANKWt-jgVOiv2r8F2-OeHcIL-A9QbxFPZKmLpOAvnQ9fZdbAHWQ&s=10);
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-sky:nth-child(3) {
+  top: 300px;
+  left: 520px;
+  background-color: #ffd07b;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsGAI57LPThQ8tdJAxL6E1WW4wjXwhi7UcJvb6YIwgwOr5yWj_wVzfW9k&s=10);
+  background-size: cover;
+  z-index: 1;
+}
+
+.box-sky:nth-child(4) {
+  top: 300px;
+  left: 120px;
+  background-color: #4caf50;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2O7JLqQ3RoMIkraLKBoEJNZ-9pORRyATNgCq9g34wY70kCtaEUdImDlE&s=10);
+  background-size: cover;
+}
+
+.gallery-box-title {
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.mod-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.minecraft-mod-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 2rem;
+  background-image: url(https://wallpaperaccess.com/full/8436173.jpg);
+  background-size: cover;
+}
+
+.stardew-mod-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 2rem;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/361/395/783/stardew-valley-stars-simple-simple-background-space-hd-wallpaper-preview.jpg);
+  background-size: cover;
+}
+
+
+
+
+
+
+/* Медіазапити / Адаптивна верстка сайту / Мобільна версія */
+
+@media screen and (max-width: 390px) {
+
+  .logo {
+    font-size: 14px !important;
+  }
+
+  #main {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 320px;
+    height: 350px;
+  }
+
+  .video-top {
+    width: 280px;
+    height: 300px;
+  }
+
+  .minecraft_things {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .stardew-container {
+    margin-top: 700px;
+  }
+
+  .stardew_things {
+    flex-direction: column;
+  }
+
+  .sky-container {
+    margin-top: 900px;
+  }
+
+  .sky_things {
+    flex-direction: column;
+  }
+
+  .tutorials-container {
+    margin-top: 800px;
+  }
+
+  .tabs {
+    width: 315px;
+  }
+
+  .logo-img-pane {
+    width: 300px;
+  }
+
+  .advantages {
+    margin-top: 200px;
+    width: 315px;
+  }
+
+  .element-link {
+    width: 300px;
+  }
+
+  .container {
+    height: 450px;
+  }
+
+  .card-item {
+    width: 300px;
+  }
+
+  .guides {
+    flex-direction: column;
+  }
+
+  .tutorials {
+    flex-direction: column;
+  }
+
+  .gallery-box-title {
+    font-size: 18px;
+  }
+
+  .box-minecraft:nth-child(1) {
+    width: 250px;
+    height: 160px;
+    left: 30px;
+  }
+
+  .container-minecraft {
+    width: 389px;
+    min-height: 125vh;
+  }
+
+  .box-minecraft:nth-child(2) {
+    left: 115px;
+    width: 269px;
+    height: 160px;
+    top: 232px;
+  }
+
+  .box-minecraft:nth-child(3) {
+    top: 406px;
+    left: 14px;
+    width: 260px;
+    height: 162px;
+  }
+
+  .box-minecraft:nth-child(4) {
+    height: 168px;
+    width: 305px;
+    top: 590px;
+    left: 76px;
+  }
+
+
+
+
+  .container-stardew {
+    width: 389px;
+    min-height: 130vh;
+  }
+
+  .box-stardew:nth-child(1) {
+    width: 265px;
+    height: 165px;
+    left: 30px;
+  }
+
+  .box-stardew:nth-child(2) {
+    left: 110px;
+    width: 275px;
+    height: 165px;
+    top: 248px;
+  }
+
+  .box-stardew:nth-child(3) {
+    top: 430px;
+    left: 16px;
+    width: 265px;
+    height: 170px;
+  }
+
+  .box-stardew:nth-child(4) {
+    height: 172px;
+    width: 312px;
+    top: 624px;
+    left: 76px;
+  }
+
+
+
+
+  .container-sky {
+    width: 389px;
+    min-height: 135vh;
+  }
+
+  .box-sky:nth-child(1) {
+    width: 290px;
+    height: 144px;
+    left: 30px;
+  }
+
+  .box-sky:nth-child(2) {
+    left: 67px;
+    width: 309px;
+    height: 156px;
+    top: 248px;
+  }
+
+  .box-sky:nth-child(3) {
+    top: 444px;
+    left: 16px;
+    width: 311px;
+    height: 179px;
+  }
+
+  .box-sky:nth-child(4) {
+    height: 176px;
+    width: 324px;
+    top: 662px;
+    left: 60px;
+  }
+}
+
+
+/* Медіазапити / Адаптивна верстка сайту / Планшетна версія */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .game-card {
+    width: 222px;
+  }
+
+  .container {
+    width: 785px;
+  }
+
+  .element-link {
+    width: 700px;
+  }
+
+  .advantages {
+    width: 760px;
+  }
+
+  .card-item {
+    width: 727px;
+  }
+
+  .guides {
+    height: 500px;
+  }
+
+  .tutorials {
+
+    height: 500px;
+  }
+
+  .container-minecraft {
+    width: 753px;
+  }
+
+  .container-stardew {
+    width: 753px;
+  }
+
+  .container-sky {
+    width: 753px;
+  }
+
+  .box-minecraft:nth-child(1) {
+    width: 323px;
+    left: 30px;
+  }
+
+  .box-minecraft:nth-child(2) {
+    left: 385px;
+    width: 350px;
+  }
+
+  .box-minecraft:nth-child(3) {
+    left: 402px;
+    width: 340px;
+  }
+
+  .box-minecraft:nth-child(4) {
+    left: 27px;
+    width: 350px;
+  }
+
+
+
+
+
+  .box-stardew:nth-child(1) {
+    left: 28px;
+    width: 340px;
+  }
+
+  .box-stardew:nth-child(2) {
+    left: 399px;
+    width: 340px;
+  }
+
+  .box-stardew:nth-child(3) {
+    left: 398px;
+    width: 340px;
+  }
+
+  .box-stardew:nth-child(4) {
+    left: 23px;
+  }
+
+
+
+  .box-sky:nth-child(1) {
+    left: 22px;
+  }
+
+  .box-sky:nth-child(2) {
+    left: 403px;
+    width: 340px;
+  }
+
+  .box-sky:nth-child(3) {
+
+    left: 399px;
+    width: 346px;
+  }
+
+  .box-sky:nth-child(4) {
+
+    left: 23px;
+  }
+
+
+
+
+
+
+  .game-card {
+    width: 334px;
+  }
+}
+
+
+
+
+
+
+
+
+/* ANIMATIONS */
+
+
+.slide-right {
+	animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+.slide-left {
+	animation: slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+.scale-up-hor-center {
+	animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-hor-center {
+  0% {
+    transform: scaleX(0.1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+
+
+.scale-up-center {
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.slide-fwd-left {
+	animation: slide-fwd-left 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-fwd-left {
+  0% {
+    transform: translateZ(0) translateX(0);
+  }
+  100% {
+    transform: translateZ(0) translateX(-50px);
+  }
+}
+
+
+
+
+
+
