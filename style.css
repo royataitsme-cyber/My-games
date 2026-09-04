@@ -620,7 +620,7 @@ footer {
 
 /* Медіазапити / Адаптивна верстка сайту / Мобільна версія */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
 
   .logo {
     font-size: 14px !important;
