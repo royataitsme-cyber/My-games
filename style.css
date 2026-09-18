@@ -1063,3 +1063,22 @@ footer {
     transform: translateZ(0) translateX(-50px);
   }
 }
+
+.list-link::after {
+  display: none;
+  margin-left: 16px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/10948/10948086.png)
+}
+
+/* Show arrow icon on hover */
+.list-link:hover::after {
+  display: block;
+}
+
+.list-link::before,
+.list-link::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+}
