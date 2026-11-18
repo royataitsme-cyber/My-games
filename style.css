@@ -22,6 +22,14 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: #076585;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fff, #076585);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fff, #076585);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background-color: #4caf50; */
 }
 
 header {
@@ -90,6 +98,7 @@ main {
   font-family: "Love Ya Like A Sister", cursive;
   font-weight: 400;
   font-style: normal;
+  color: black !important;
 }
 
 .things-font {
@@ -351,6 +360,7 @@ footer {
 .controls {
   display: flex;
   gap: 8px;
+  justify-content: space-between;
 }
 
 .btn-pane {
@@ -615,7 +625,7 @@ footer {
 }
 
 .gallery-box-title {
-  background-color: #fff;
+  background-color: #000000 !important;
   display: inline-block;
   margin-left: 10px;
   margin-top: 10px;
@@ -662,7 +672,9 @@ footer {
   background-size: cover;
 }
 
-
+.toast-section {
+  justify-content: center;
+}
 
 
 
@@ -749,6 +761,7 @@ footer {
 
   .gallery-box-title {
     font-size: 18px;
+    background-color: black !important;
   }
 
   .box-minecraft:nth-child(1) {
@@ -852,7 +865,55 @@ footer {
     top: 662px;
     left: 60px;
   }
+
+  .carousel-inner {
+    width: 370px;
+  }
+
+  .carousel {
+    height: 300px !important;
+  }
+
+  .accordion {
+    width: 380px;
+  }
+
+  .accordion-header {
+    width: 380px !important;
+  }
+
+  .accordion-section-title {
+    width: 380px;
+  }
+
+  .contacts {
+    width: 340px !important;
+    justify-content: center !important;
+  }
+
+  /* .aos-init{
+    height: 70px;
+  } */
+  .card-set {
+    margin-top: -60px;
+  }
+
+  .chat-button {
+    right: -30px;
+  }
+
+  .contacts-card {
+    height: 70px;
+  }
+
+  .container-contacts {
+    height: 400px;
+  }
 }
+
+
+
+
 
 
 /* Медіазапити / Адаптивна верстка сайту / Планшетна версія */
@@ -1081,4 +1142,133 @@ footer {
   width: 24px;
   height: 24px;
   background-size: contain;
+}
+
+.accordion-section {
+
+  width: 510px;
+  margin: 50px auto;
+
+}
+
+
+.accordion-header {
+  padding: 5px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-body {
+  padding: 5px;
+}
+
+.accordion-section-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.carousel {
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.section-dialog {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: center;
+
+  /* position: relative; */
+}
+
+.dialog {
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 10px;
+  background-color: #333;
+  /* position: absolute; */
+}
+
+.dialog-header {
+  padding: 10px;
+}
+
+.dialog-body {
+  padding: 15px;
+}
+
+.dialog-footer {
+  padding-top: 15px;
+}
+
+.contains-inline {
+  width: 580px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: center;
+
+
+}
+
+.stepper-class {
+
+  width: 510px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.drawer-body {
+  padding: 25px;
+
+}
+
+
+.btn-close {
+  position: relative !important;
+  top: 17px;
+  left: 20px;
+  padding: 15px !important;
+  ;
+}
+
+.nav {
+  gap: 15px;
+
+}
+
+.nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contacts {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  /* background-color: #f9f9f9; */
+  gap: 20px;
+  background-image: url(https://i.pinimg.com/736x/a1/9b/36/a19b36b3dedd8674821b1df3235555d2.jpg);
+  background-size: cover;
+  border-radius: 9px;
+  margin: 0 auto;
+  width: 940px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: top;
+  color: black;
+  justify-content: center;
+  align-items: center;
+
 }
